@@ -1,0 +1,67 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(192, 192, 192, 0.815);
+    background-attachment: fixed;
+}
+header{
+    background-image: linear-gradient(to right, #bbbbccd0, #110f0f8c, #1717189d);
+    background-attachment: fixed; /*fixa o fundo*/
+    padding: 10px;
+    margin: -8px;
+}
+#principal{
+    text-align: center;
+    margin-bottom: 50px;
+}
+nav > a{
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+nav > a:hover{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 3px 3px 0px 0px;
+    
+}
+main{
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    min-width: 200px; /*ajuste de responsividade*/
+    max-width: 900px; /*ajuste de responsividade*/
+    padding: 10px;
+    text-align: justify;
+    line-height: 2em;
+}
+#android{
+    width: 100%; /*ajuste de responsividade*/
+    margin: auto; 
+    padding: 5px;
+}
+#androidatual{
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+section#link{
+    padding: 10px;
+    background-color: green;
+    border-radius: 4px;
+    margin: 10px;
+}
+#video{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 100%; /*ajuste de responsividade*/
+}
+footer{
+    background-color: gray;
+    text-align: center  ;
+    width: 100%;
+    margin-top: 10px;
+}

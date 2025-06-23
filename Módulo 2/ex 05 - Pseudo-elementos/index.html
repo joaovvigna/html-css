@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Elementos</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a{
+        color: purple;
+        text-decoration: none;
+        font-weight: bolder
+    }
+    a:visited{
+        color: #360936;
+    }
+    a:hover{
+        color: red;
+        text-decoration: underline;
+    }
+    .especial::before{ /*inserção de caracteres antes da classe (no começo)*/
+        content: ">>>"; /*content significa conteúdo*/
+    }
+    .especial::after{ /*inserção de caracteres depois da classe (no final)*/
+        content: "<<<";
+    }
+    
+</style>
+<body>
+    <h1>LINKS</h1>
+    <ul>
+        <li><p><a href="https://www.youtube.com/"  target="_blank"  class="especial">Youtube</a></p></li>
+        <li><a href="https://www.twitch.tv/" target="_blank">Twitch</a></li>
+    </ul>
+</body>
+</html>

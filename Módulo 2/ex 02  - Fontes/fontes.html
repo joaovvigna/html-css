@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    body{
+
+        font-family: 'Work Sans', 'Courier New', Courier, monospace;
+        /*safe combinations, se caso a primeira  opção não funcionar a seguna é utilizada e assim por diante*/
+        
+        font-size: 20px;
+        /*
+        Medidas absolutas
+        cm,  mm, in, px, pt, pc
+
+        Medidas relativas
+        em, ex, rem,  vw, vh, %
+
+        as medidas recomendadas são: px e em.
+        16px = 1em
+        */
+        
+        font-weight: 300; /*peso da fonte, "magra ou gorda"*/
+    }
+
+    h1{
+        /*
+        font-family: 'Work Sans', sans-serif;
+        font-size: 3em;
+        font-style: italic;
+        font-weight: bolder;
+
+        shorthand font
+        font-style -> font-weight -> font-size -> font-family
+        */
+        font: italic 400 3em 'work sans', sans-serif;
+    }
+    h2{
+        font: 400 3em 'work sans', sans-serif;
+    }
+</style>
+<body>
+    <h1>Trabalhano com fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, quisquam id? Odio animi nostrum ipsa, quo error vero inventore, facere aspernatur illum laudantium hic optio. Reiciendis exercitationem possimus enim maxime?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga architecto dolores neque voluptatibus adipisci labore sapiente esse porro corrupti. Vero nostrum esse nemo libero, repellat asperiores veniam qui! Nobis, tempora!</p>
+    <h2>Subtítulo</h2>
+</body>
+</html>

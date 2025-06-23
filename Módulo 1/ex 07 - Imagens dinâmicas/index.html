@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Dinâmica</title>
+</head>
+<body>
+    <h1>Imagens que se adaptam conforme o tamanho da tela</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <!--Se o tamanho máximo da tela for de 750px a imagem a ser mostrada será a p.png-->
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <!--Se o tamanho máximo da tela for de 1050px a imagem a ser mostrada será a m.png-->
+        <img src="imagens/g.png" alt="Imagem grande">
+    </picture>
+</body>
+</html>
