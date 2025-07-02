@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação</title>
+    <style>
+        h1, ul, li{
+            text-align: center;
+        }
+        iframe{
+            display: block;
+            width: 50vh;
+            height: 500px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de navegação no iframe</h1>
+
+    <iframe name="tela" srcdoc="<h1>Escolha uma das páginas</h1>"></iframe>
+
+    <ul>
+        <a href="paginas/tabelacompleta.html" target="tela">
+            <li type="none">Primeira página</li>
+        </a>
+        <a href="paginas/tabelasgrandes.html" target="tela">
+            <li type="none">Segunda página</li>
+        </a>
+        <a href="paginas/pagina3.html" target="tela">
+            <li type="none">Terceira página</li>
+        </a>
+    </ul>
+</body>
+</html>

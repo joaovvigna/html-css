@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        table{
+            width: 600px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        /*cabeçalho fixo*/
+        thead{
+            position: sticky;
+            top: -1;
+            background-color: gray;
+        }
+
+        /*efeito zebrado*/
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+        }
+
+    </style>
+</head>
+<body>
+    <!--
+    Anatomia de uma tabela
+    TABLE
+        THEAD
+            TD, TR, TH
+        TBODY
+            TD, TR, TH
+        TFOOT
+            TD, TR, TH
+    -->
+    
+    <table>
+        <caption>População dos Estados</caption>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.000.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.000.000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>18.000.000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.000.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.000.000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>18.000.000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.000.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.000.000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>18.000.000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.000.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.000.000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>18.000.000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.000.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.000.000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>18.000.000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.000.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.000.000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>18.000.000</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td>45.000.000</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>21.000.000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>18.000.000</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <td>0000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela completa</title>
+    <style>
+        table{
+            width: 600px;
+            height: 600px;
+            border-collapse: collapse;
+        }
+        thead, tbody, th, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Grupos</th>
+                <th>Nomes</th>
+                <th colspan="2">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2">Mulheres</th>
+                <td>Cecilia</td>
+                <td>Barbie</td>
+                <td>Breaking Bad</td>
+            </tr>
+            <tr>
+                <td>Nilda</td>
+                <td>Avenida Brasil</td>
+                <td>Divertidamente</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Homens</th>
+                <td>João</td>
+                <td>Matrix</td>
+                <td>Breaking Bad</td>
+            </tr>
+            <tr>
+                <td>Claudio</td>
+                <td>Liga da Justiça</td>
+                <td>Vingadores</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
